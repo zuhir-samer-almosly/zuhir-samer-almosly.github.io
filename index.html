@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zuhir Samer Almosly | Creative Full Stack Developer</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Portfolio of Zuhir Samer Almosly (Zoher Moslie), a Creative Full Stack Developer and Designer specializing in premium, responsive web applications and system design.">
+    <meta name="keywords" content="Zuhir Samer Almosly, Zoher Moslie, Portfolio, Full Stack Developer, Web Designer, JavaScript, React, Next.js, Node.js">
+    <meta name="author" content="Zuhir Samer Almosly">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glow Backdrops -->
+    <div class="ambient-glows">
+        <div class="glow-1"></div>
+        <div class="glow-2"></div>
+        <div class="glow-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                Zoher Moslie <span class="logo-dot"></span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="nav-btn">Hire Me</a></li>
+            </ul>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-tag">Available for hire</span>
+                    <h1 class="hero-title">Hey, I'm <br><span class="gradient-text">Zuhir Samer</span></h1>
+                    <div class="hero-subtitle">
+                        I am a <span id="typed-text"></span><span class="typing-cursor"></span>
+                    </div>
+                    <p class="hero-description">
+                        I craft immersive digital experiences, bridging the gap between elegant interface design and robust system engineering. Let's build something exceptional together.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get in touch</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="visual-canvas-container">
+                        <div class="canvas-sphere"></div>
+                        <div class="canvas-ring canvas-ring-1"></div>
+                        <div class="canvas-ring canvas-ring-2"></div>
+                        <div class="canvas-ring canvas-ring-3"></div>
+                        <div class="canvas-core"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Expertise Section -->
+        <section class="section container reveal" id="about">
+            <h2 class="section-title">Core Expertise</h2>
+            <div class="expertise-grid">
+                <!-- Card 1 -->
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                    </div>
+                    <h3>Full-Stack Web Dev</h3>
+                    <p>Building scalable web applications from responsive front-end layouts to clean, high-performance database architectures and backend services.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"></path><path d="M12 2V22"></path><path d="M2 12H22"></path></svg>
+                    </div>
+                    <h3>Creative Design</h3>
+                    <p>Designing modern, sleek user interfaces with strong focus on user experience, glassmorphic styling, fluid layouts, and polished transitions.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <h3>System Architecture</h3>
+                    <p>Designing secure system endpoints, continuous delivery automation pipelines, caching strategies, and managing clouds and databases.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section container reveal" id="projects">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="project-graphic-1">
+                            <div class="graphic-grid"></div>
+                            <div class="graphic-circle graphic-c1"></div>
+                            <div class="graphic-circle graphic-c2"></div>
+                            <div class="graphic-nodes">
+                                <div class="node-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">GraphQL</span>
+                        </div>
+                        <h3 class="project-title">Zenith Platform</h3>
+                        <p class="project-desc">A unified cloud orchestration and developer analytics dashboard featuring real-time event ingestion and dynamic system reports.</p>
+                        <a href="#" class="project-link">
+                            Explore Project
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="project-graphic-2">
+                            <div class="graphic-wave">
+                                <div class="graphic-wave-bar"></div>
+                                <div class="graphic-wave-bar"></div>
+                                <div class="graphic-wave-bar"></div>
+                                <div class="graphic-wave-bar"></div>
+                                <div class="graphic-wave-bar"></div>
+                                <div class="graphic-wave-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">Web Audio API</span>
+                            <span class="project-tag">WebGL</span>
+                        </div>
+                        <h3 class="project-title">Aether Audio</h3>
+                        <p class="project-desc">An interactive audio synthesis and visual mapping tool running natively in the browser with hardware acceleration.</p>
+                        <a href="#" class="project-link">
+                            Explore Project
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="project-graphic-3">
+                            <div class="graphic-rings">
+                                <div class="graphic-ring-item"></div>
+                                <div class="graphic-ring-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Go / Rust</span>
+                            <span class="project-tag">D3.js</span>
+                            <span class="project-tag">WebSockets</span>
+                        </div>
+                        <h3 class="project-title">Nova Analytics</h3>
+                        <p class="project-desc">A highly scalable real-time telemetry processing framework processing millions of transactions per second with interactive graphs.</p>
+                        <a href="#" class="project-link">
+                            Explore Project
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section container reveal" id="skills">
+            <div class="skills-container">
+                <div class="skills-wrapper">
+                    <div class="skills-info">
+                        <h2 class="section-title">Technical Skills</h2>
+                        <p>I constantly explore new technologies and work with modern libraries to build robust, modern, and beautiful applications that satisfy user needs.</p>
+                    </div>
+                    <div class="skills-categories">
+                        <!-- Front-End -->
+                        <div class="skill-category">
+                            <h4>Front-End</h4>
+                            <div class="skill-badges">
+                                <div class="skill-badge">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 22h20L12 2zM11 7h2v6h-2V7zm0 8h2v2h-2v-2z"/></svg>
+                                    JavaScript (ES6+)
+                                </div>
+                                <div class="skill-badge">TypeScript</div>
+                                <div class="skill-badge">React & Redux</div>
+                                <div class="skill-badge">Next.js</div>
+                                <div class="skill-badge">HTML5 / CSS3</div>
+                            </div>
+                        </div>
+                        <!-- Back-End & DB -->
+                        <div class="skill-category">
+                            <h4>Back-End & Database</h4>
+                            <div class="skill-badges">
+                                <div class="skill-badge">Node.js / Express</div>
+                                <div class="skill-badge">Python / Flask</div>
+                                <div class="skill-badge">REST & GraphQL</div>
+                                <div class="skill-badge">PostgreSQL / MySQL</div>
+                                <div class="skill-badge">MongoDB / Redis</div>
+                            </div>
+                        </div>
+                        <!-- Tools & DevOps -->
+                        <div class="skill-category">
+                            <h4>Tools & Infrastructure</h4>
+                            <div class="skill-badges">
+                                <div class="skill-badge">Git & GitHub</div>
+                                <div class="skill-badge">Docker & K8s</div>
+                                <div class="skill-badge">AWS / GCP</div>
+                                <div class="skill-badge">CI/CD Pipelines</div>
+                                <div class="skill-badge">Linux Server Adm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section container reveal" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div>
+                        <p>Have a project proposal, job offer, or just want to chat? Feel free to contact me using the form or through my links.</p>
+                        <div class="contact-details">
+                            <!-- Email -->
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <p>zuhirsamer@gmail.com</p>
+                                </div>
+                            </div>
+                            <!-- Location -->
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Syria / Damascus</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Jane Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="jane@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Hello! I would love to talk about..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                        <p class="form-status" id="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Zuhir Samer Almosly. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/zuhir-samer-almosly" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
